@@ -2,9 +2,9 @@
 
 class SayHelloTest extends PHPUnit_Framework_TestCase
 {
-    public static function testMustBeEqual()
+    public function testMustBeEqual()
     {
-		$a = new SayHello();
+		$a = new HelloWorld\SayHello();
 		return $this->assertEquals('Hello World, Composer!',$a->world());
     }
 }
